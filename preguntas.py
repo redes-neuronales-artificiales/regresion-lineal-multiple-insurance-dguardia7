@@ -165,7 +165,7 @@ def pregunta_04():
         y_train_pred,
     ).round(2)
 
-    mse_test = ____(
+    mse_test = mean_squared_error(
         y_test,
         y_test_pred,
     ).round(2)
